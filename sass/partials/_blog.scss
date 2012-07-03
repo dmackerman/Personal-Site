@@ -101,8 +101,12 @@ article + article {
     margin-right: .5em;
     text-decoration: none;
     color: mix($text-color, $text-color-light);
-    @extend .serif;
-    @include transition(background-color .5s);
+    text-transform: uppercase;
+    font-size: .65em;
+    font-weight: bold;
+    text-shadow: 0px 1px #fff;
+    @extend .sans;
+    @include transition(background-color .2s);
     &:hover {
       background: $link-color-hover;
       text-shadow: none;

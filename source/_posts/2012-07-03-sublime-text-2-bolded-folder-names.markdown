@@ -6,11 +6,13 @@ comments: true
 categories: [Sublime Text 2]
 ---
 
-By now you probably have heard about Sublime Text 2. Great editor, and my personal favorite. One of the biggest downfalls, in my opinion, of ST2 is it's sidebar. You should install [SideBarEnhancements][1] to get started, but that doesn't fix some of the UI scanning issues in large projects. 
+By now you probably have heard about Sublime Text 2. Great editor, and my personal favorite. One of the biggest downfalls, in my opinion, of ST2 is the sidebar. You should install [SideBarEnhancements][1] to get started, but that doesn't fix some of the UI scanning issues in large projects. 
 
-Making folder names bold, as per TextMate helps the situation a little bit. This little known features was added in build [Build 2195][2] on April 16th.
+Making folder names bold, as per TextMate helps the situation a little bit. This little known features was added in [Build 2195][2] on April 16th.
 
-Start by opening your configuration file. You can quickly access it by typing `CMD+,`
+<!-- more -->
+
+Start by opening your configuration file. You can quickly access it by typing `CMD + ,`
 
 Add the following line:
 `"bold_folder_labels": true`
@@ -19,7 +21,7 @@ Add the following line:
 
 I've attached my config file in case people are interested.
 
-``` json Title Here
+``` json Sublime Text 2 Configuation File
 {
 	"auto_complete_commit_on_tab": true,
 	"caret_style": "phase",
