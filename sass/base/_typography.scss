@@ -1,7 +1,7 @@
 $blockquote: $type-border !default;
 $sans: "proxima-nova", "Helvetica Neue", Arial, sans-serif !default;
 $serif: "adelle", Georgia, Times, "Times New Roman", serif !default;
-$mono: "Menlo", "Monaco", "Andale Mono", "lucida console", "Courier New", monospace !default;
+$mono: "Monaco", "Andale Mono", "lucida console", "Courier New", monospace !default;
 $heading-font-family: "adelle", "Georgia", "Helvetica Neue", Arial, sans-serif !default;
 $header-title-font-family: $heading-font-family !default;
 $header-subtitle-font-family: $sans !default;
@@ -16,7 +16,7 @@ $header-subtitle-font-family: $sans !default;
 
 body > header h1 {
   @extend .heading;
-  font-size: 2.2em;
+  font-size: 2em;
   font-family: $header-title-font-family;
   font-weight: normal;
   line-height: 1.2em;
@@ -32,13 +32,13 @@ body {
   @extend .sans;
 }
 h1 {
-  font-size: 2.2em;
+  font-size: 2em;
   line-height: 1.2em;
 }
 
 @media only screen and (min-width: 992px) {
   body { font-size: 1.15em; }
-  h1 { font-size: 2.6em; line-height: 1.2em; }
+  h1 { font-size: 2.2em; line-height: 1.2em; }
 }
 
 #{headings()}{

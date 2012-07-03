@@ -1,12 +1,6 @@
 body > nav {
   position: relative;
-  background-color: $nav-bg;
-  @include background($nav-bg-front, $nav-bg-back);
-  border: {
-    top: 1px solid $nav-border-top;
-    bottom: 1px solid $nav-border-bottom; }
-  padding-top: .35em;
-  padding-bottom: .35em;
+  padding: 0;
   form {
     @include background-clip(padding-box);
     margin: 0; padding: 0;
@@ -16,9 +10,9 @@ body > nav {
       font-family: $sans;
       line-height: 1.1em;
       width: 95%;
-      @include border-radius(.5em);
+      @include border-radius(2px);
       @include background-clip(padding-box);
-      @include box-shadow(lighten($nav-bg, 2) 0 1px);
+      // @include box-shadow(lighten($nav-bg, 2) 0 1px);
       background-color: lighten($nav-bg, 15);
       border: 1px solid $nav-border;
       color: #888;
@@ -39,36 +33,26 @@ body > nav {
   @media only screen and (min-width: 550px) {
     font-size: .9em;
     ul {
-      @include horizontal-list(0);
-      float: left;
+      margin: 0;
+      text-align: center;
+      list-style: none;
       display: block;
       padding-top: .15em;
     }
-    ul.subscription {
-      margin-left: .8em;
-      float: right;
-      li:last-child a { padding-right: 0; }
-    }
-    ul li {
-      margin: 0;
+    li {
+      display: inline-block;
     }
     a {
       @include link-colors($nav-color, $nav-color-hover, $visited: $nav-color);
       font-family: $sans;
       text-shadow: lighten($nav-bg, 12) 0 1px;
-      float: left;
+      display: inline-block;
       text-decoration: none;
-      font-size: 1.1em;
-      padding: .1em 0;
+      font-size: .9em;
+      padding: .6em 1em;
       line-height: 1.5em;
-    }
-    li + li {
-      border-left: 1px solid $nav-border-left;
-      margin-left: .8em;
-      a {
-        padding-left: .8em;
-        border-left: 1px solid $nav-border-right;
-      }
+      text-transform: uppercase;
+      font-weight: bold;
     }
     form {
       float: right;
