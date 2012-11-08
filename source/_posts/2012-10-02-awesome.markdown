@@ -1,0 +1,7 @@
+---
+layout: post
+title: "awesome"
+date: 2012-10-02 16:38
+comments: true
+categories: 
+---
