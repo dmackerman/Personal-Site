@@ -1,2 +1,19 @@
 // This File is imported last, and will override other styles in the cascade
 // Add styles here to make changes without digging in too much
+
+.meta {
+  font-size: 13px;
+}
+
+body > header h1 {
+  line-height: 27px;
+  span {
+    font-size: .6em; 
+    color: #888; 
+    font-style: normal;
+  }
+  a {
+    font-weight: 800; 
+    color: #222 !important;
+  }
+}
