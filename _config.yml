@@ -8,6 +8,7 @@ subtitle: 'on web development, aquariums, and whatnot.'
 author: Dave Ackerman
 simple_search: http://google.com/search
 description: 'Ramblings on code, design, user experience, salt water aquariums, and whatever else comes to mind.'
+keywords: 'aquariums, reef tank, salt water tank, web design, web development, dave ackerman, modus create'
 
 # Default date format is "ordinal" (resulting in "July 22nd 2007")
 # You can customize the format as defined in
@@ -97,4 +98,4 @@ disqus_show_comment_count: false
 google_analytics_tracking_id: UA-33122987-1
 
 # Facebook Like
-facebook_like: true
+facebook_like: false

@@ -25,6 +25,15 @@ body > header h1 {
   h2, h3 { color: #444; }
   a { color: #007799; }  
   p { color: #444; }
+  li { color: #444; }
 } 
 
-
+p.meta + .sharing { 
+  padding-bottom: 1em; 
+}
+.meta .categories { 
+  font-size: .85em; 
+}
+.post-nav a { 
+  font-weight: bold;
+}
