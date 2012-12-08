@@ -8,8 +8,9 @@
 /* header area up top */
 body > header h1 {
   line-height: 27px;
+  font-family: 'proxima-nova';
   span {
-    font-size: .6em; 
+    font-size: 0.5em; 
     color: #888; 
     font-style: normal;
   }
@@ -19,13 +20,18 @@ body > header h1 {
   }
 }
 
-#content .blog-index article h1 a { color: #333; }
+
+#content .blog-index article h1 {
+  font-size: 1.7em;
+  a { color: #333; }  
+}
+
 .entry-title { color: #333; }
 .entry-content {
   h2, h3 { color: #444; }
-  a { color: #007799; }  
   p { color: #444; }
   li { color: #444; }
+  blockquote { font-size: 1em; }
 } 
 
 p.meta + .sharing { 
